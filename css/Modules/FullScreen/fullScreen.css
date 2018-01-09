@@ -1,0 +1,12 @@
+.fullScreen {
+  max-width: 100%;
+  min-height: 78vh;
+  margin: 0;
+  right: 0;
+}
+.fullScreen-postion {
+  position: absolute;
+}
+.fullScreen-paddingNull {
+  padding: 0;
+}

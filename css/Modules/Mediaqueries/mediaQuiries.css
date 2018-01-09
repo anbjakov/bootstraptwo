@@ -1,0 +1,8 @@
+.displayNone {
+  display: flex;
+}
+@media screen and (max-width: 720px) {
+  .displayNone {
+    display: none;
+  }
+}

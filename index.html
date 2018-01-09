@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.less">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a name="top"></a>
+        <ul class="nav borderNav displayNone">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <div class="dropdown">
+                <button class="btn btn-secondary bgNone dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Press me
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">
+                        <button type="button" class="btn btn-primary bgNone" data-toggle="modal" data-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+</header>
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered animated slideInLeft" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="row marginSelect-top">
+        <div class="col-md-4">
+            <div class="card flex-row">
+                <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card flex-row-reverse">
+                <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card flex-row">
+                <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row marginSelect-top">
+        <div class="col-md-12">
+            <div class="wrap">
+                <button type="button" class="btn btn-primary alignCenter" data-toggle="modal" data-target="#exampleModalOne">
+                    Launch demo modal
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="modal " id="exampleModalOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog fullScreen  posAbs animated fadeIn" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Defender Security Center</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body fullScreen">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-12 bgModal">
+                                <h1 class="text-danger">Your device is under threat</h1><br>
+                                <h3 class="text-info">Last threat scan: 09/01/2018<br>
+                                    Last threat definition update: 09/01/2018<br>
+                                    Last threat scan: 09/10/2018<br>
+                                </h3>
+                                <h1 class="text-warning">Turn on Real-time protection?</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" >
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <i class="fa fa-heart fa-5x text-primary" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p class="font-weight-bold"> Device Performance & Health </p>
+                                                    <p class="font-weight-light">No action needed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <i class="fa fa-shield fa-5x text-primary" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p class="font-weight-bold"> Virus & Threat Protection</p>
+                                                    <p class="font-weight-light">Real time protection is off, Leaving your device vulnerable</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-0">
+                                    <div class="card-body ">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <i class="fa fa-wifi fa-5x text-primary" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p class="font-weight-bold"> Firewall & Network Protection</p>
+                                                    <p class="font-weight-light">No action needed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer text-left">
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Yes</button>
+                    <button type="button" class="btn btn-primary">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="row marginSelect-top">
+    <div class="col-md-4">
+        <div class="card flex text-center">
+            <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card flex text-center">
+            <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card flex text-center">
+            <img class="card-img-top" src="http://i.vimeocdn.com/video/514334770_1280x720.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row marginSelect-top marginSelect-bottom">
+    <div class="col-md-12 marginSelect-bottom">
+        <div class="wrap justify-content-end">
+            <a class="btn btn-primary" href="#top" role="button">Go Up</a>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/cb03fbba2a.js"></script>
+
+</body>
+</html>
+
